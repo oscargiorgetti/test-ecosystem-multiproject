@@ -16,8 +16,10 @@
     <name>${project.artifactId} - ${project.version}</name>
 
     <scm>
-        <connection>scm:svn:https://slfileserver2.intra-nec/svn/Biometria/Proyectos/test/test-ecosystem-multiproject/trunk</connection>
-        <developerConnection>scm:svn:https://slfileserver2.intra-nec/svn/Biometria/Proyectos/test/test-ecosystem-multiproject/trunk</developerConnection>
+        <url>https://github.com/oscargiorgetti/test-ecosystem-multiproject</url>
+        <connection>scm:git:git://github.com/oscargiorgetti/test-ecosystem-multiproject.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/oscargiorgetti/test-ecosystem-multiproject.git</developerConnection>
+        <tag>master</tag>
     </scm>
 
     <dependencies>
