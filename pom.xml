@@ -7,7 +7,7 @@
     <groupId>ar.com.nec.test</groupId>
     <artifactId>test-ecosystem</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <parent>
         <groupId>ar.com.nec</groupId>
