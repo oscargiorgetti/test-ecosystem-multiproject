@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ar.com.nec.test</groupId>
+    <artifactId>test-ecosystem</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>ar.com.nec</groupId>
+        <artifactId>necar-mvn-project</artifactId>
+        <version>1.0.0</version>
+        <relativePath></relativePath>
+    </parent>
+
+    <name>${project.artifactId} - ${project.version}</name>
+
+    <scm>
+        <connection>scm:svn:https://slfileserver2.intra-nec/svn/Biometria/Proyectos/test/test-ecosystem-multiproject/trunk</connection>
+        <developerConnection>scm:svn:https://slfileserver2.intra-nec/svn/Biometria/Proyectos/test/test-ecosystem-multiproject/trunk</developerConnection>
+    </scm>
+
+    <modules>
+        <module>utils/util-x</module>
+        <module>utils/util-y</module>
+        <module>components/component-a</module>
+        <module>components/component-b</module>
+        <module>components/component-c</module>
+        <module>main</module>
+    </modules>
+
+</project>
